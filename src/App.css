@@ -1,0 +1,62 @@
+h1 {
+    background-color: pink;
+    color: rgb(21, 164, 31);
+    font-family: sans-serif;
+}
+
+button {
+    color: white;
+    background-color: rgb(170, 31, 115);
+}
+
+footer {
+    background-color: pink;
+    color: #C04040;
+    margin-top: 20px;
+}
+
+.navbar-top {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.sidebar {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    display: block;
+    position: fixed;
+    top: 50px;
+  }
+}
+
+.card {
+}
+
+.card_image {
+    max-width: 25vw;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#sitelogo {
+    content: url("/assets/Proud.jpg");
+    width: 60px;
+    height: 70px;
+    margin: 1px;
+}
+
+#sitename:before {
+    content: "Raspberry Spy";
+    margin: 28px;
+}
+
+.sliders {
+    width: 600px;
+    margin: 10px;
+}

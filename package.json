@@ -1,0 +1,37 @@
+{
+  "name": "raspberry-spy",
+  "version": "1.0.0",
+  "description": "Web app to visualize bluetooth data",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel serve index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brian32768/raspberry-spy.git"
+  },
+  "keywords": [
+    "Raspberry",
+    "Pi",
+    "bluetooth",
+    "react",
+    "d3"
+  ],
+  "author": "Brian Wilson <brian@wildsong.biz>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brian32768/raspberry-spy/issues"
+  },
+  "homepage": "https://github.com/brian32768/raspberry-spy#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1",
+    "reactstrap": "^6.5.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0"
+  }
+}
